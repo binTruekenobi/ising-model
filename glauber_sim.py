@@ -53,8 +53,8 @@ def glauber():
             d_21 = 0
             d_01 = grid[i][y-1]*2-1
         else:
-            d_21 = grid[i][j+1]
-            d_01 = grid[i][j-1]
+            d_21 = grid[i][j+1]*2-1
+            d_01 = grid[i][j-1]*2-1
         S = d_10 + d_12 + d_01 + d_21
         E = 2*d_11*S
         p = 1/(1 + exp(E/T))
@@ -88,8 +88,8 @@ def glauber_warp():
             d_21 = grid[i][0]*2-1
             d_01 = grid[i][y-1]*2-1
         else:
-            d_21 = grid[i][j+1]
-            d_01 = grid[i][j-1]
+            d_21 = grid[i][j+1]*2-1
+            d_01 = grid[i][j-1]*2-1
         S = d_10 + d_12 + d_01 + d_21
         E = 2*d_11*S
         p = 1/(1 + exp(E/T))
@@ -123,8 +123,8 @@ def metropolis():
             d_21 = 0
             d_01 = grid[i][y-1]*2-1
         else:
-            d_21 = grid[i][j+1]
-            d_01 = grid[i][j-1]
+            d_21 = grid[i][j+1]*2-1
+            d_01 = grid[i][j-1]*2-1
         S = d_10 + d_12 + d_01 + d_21
         E = 2*d_11*S
         if E<0:
@@ -161,8 +161,8 @@ def metropolis_warp():
             d_21 = grid[i][0]*2-1
             d_01 = grid[i][y-1]*2-1
         else:
-            d_21 = grid[i][j+1]
-            d_01 = grid[i][j-1]
+            d_21 = grid[i][j+1]*2-1
+            d_01 = grid[i][j-1]*2-1
         S = d_10 + d_12 + d_01 + d_21
         E = 2*d_11*S
         p = 1/(1 + exp(E/T))
