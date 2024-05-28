@@ -14,7 +14,7 @@ True = up spin
 
         
 def gen_grid(x, y):
-    grid = np.empty([x, y])
+    grid = np.empty([x, y], dtype=bool)
     for i in range(x):
         for j in range(y):
             grid[i][j] = rd(0, 1)
