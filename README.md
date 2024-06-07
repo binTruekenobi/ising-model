@@ -1,10 +1,9 @@
 # ising-model
 glauber dynamics and metropolis-hastings algorithm
 
-the warp versions are very similar but essentially map the grid to a torus, if the grid point is on an edge or corner, so a connected point "falls off" the grid, the value is mapped to the other edge of the grid
 
-the following gifs below are from the optimized program, running the file without **modifying the animation script in lines 87-92** will cause the file to be saved to desktop.
-As this runs in one go, the ram requirements are quite high, for example, a 500x500 grid (at T=1) for 1500 frames, 25fps resulted in over 8.5 GB RAM usage, and resulted in a 31 MB gif, due to this, and through other tests, to keep the usage under 1GB, maybe aim to have width x height x frames < 10^7
+the following gifs below are from the glauber.py, running the file without **modifying the animation script in lines 87-92** will cause the file to be saved to desktop.
+As this runs and stores all points in one go, the ram requirements are quite high, for example, a 500x500 grid (at T=1) for 1500 frames, 25fps resulted in over 8.5 GB RAM usage, and resulted in a 31 MB gif, due to this, and through other tests, to keep the usage under 1GB, maybe aim to have width x height x frames < 10^7
 i.e. a 100x100 grid would be best if ran with < 1000 frames.
 ![TLI2](https://github.com/binTruekenobi/ising-model/assets/162815260/e35ee15c-9ebd-469a-9250-fbbd006d468d)
 ![TLI](https://github.com/binTruekenobi/ising-model/assets/162815260/36c1b9b2-e867-44b8-8316-8c2bfe5a53e1)
