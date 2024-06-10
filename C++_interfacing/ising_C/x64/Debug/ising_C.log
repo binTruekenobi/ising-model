@@ -1,0 +1,4 @@
+﻿  ising_C.cpp
+C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++\ising_C\ising_C.cpp(11,19): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++\ising_C\ising_C.cpp(79,26): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ising_C.vcxproj -> C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++\ising_C\x64\Debug\ising_C.exe
