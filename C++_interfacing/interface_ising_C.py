@@ -1,11 +1,13 @@
 import subprocess
 import matplotlib.pyplot as plt
+from numpy import array
+#takes the output of the C++ executable, processes it, and  plots it. Note: using int(x) or just x can work but if the field is fractional, int(x) rounds values.
 
-cpp_output = subprocess.check_output(["C++/ising_C/x64/Debug/ising_C.exe"]).decode("utf-8")
+c_out = subprocess.check_output(["ising_C.exe"]).decode("utf-8")
 
-my_list = [float(x) for x in cpp_output.strip().split()]
+vals = array([float(x) for x in c_out.strip().split()])
 
-plt.plot(my_list)
+plt.plot(vals)
 plt.xlabel("Iteration point / n")
 plt.ylabel("Energy")
 plt.show()
