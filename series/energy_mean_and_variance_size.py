@@ -46,7 +46,7 @@ def glauber_warp(X, Y, grid):
         p = 1/(1 + exp(E/T))
         t = un(0, 1)
         if t<p:
-            grid[i][j] = not(grid[i][j])
+            grid[i][j] = -grid[i][j]
         if not k%n:
             engs[k//n] = energy(X, Y, grid)/maxeng
     return engs
