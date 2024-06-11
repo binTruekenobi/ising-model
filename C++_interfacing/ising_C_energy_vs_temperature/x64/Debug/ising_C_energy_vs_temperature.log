@@ -1,0 +1,4 @@
+﻿  ising_C_energy_vs_temperature.cpp
+C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++_interfacing\ising_C_energy_vs_temperature\ising_C_energy_vs_temperature.cpp(103,27): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++_interfacing\ising_C_energy_vs_temperature\ising_C_energy_vs_temperature.cpp(107,31): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  ising_C_energy_vs_temperature.vcxproj -> C:\Users\Ciara\OneDrive\Desktop\programming_thingy\ising_model_simulations\C++_interfacing\ising_C_energy_vs_temperature\x64\Debug\ising_C_energy_vs_temperature.exe
