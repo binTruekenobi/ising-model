@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from time import time
 
 """
+shows the logical structure of Glauber and Metropolis-Hastings algorithms, as well as a "point" class which can be used to create objects which can store positions, neighbours and spins.
+
 boolean representation of spins,
 False = down spin
 True = up spin
