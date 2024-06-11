@@ -30,9 +30,6 @@ Y = 10
 #print(grid)
 
 def energy(grid):
-    """
-    uses a lotof runtime?
-    """
     E=0
     for i in range(0, X):
         for j in range(0, Y):
