@@ -1,4 +1,4 @@
-Here's some random media that couldn't fit into the poster
+Here's some random media that couldn't fit into the poster (most of them are just horrible images that were either drawn using dots instead of lines and/or didn't run for long enough to average out thermal noise, or just weren't interesting enough)
 
 
 energy vs temperature graph 
